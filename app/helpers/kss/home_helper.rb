@@ -1,5 +1,5 @@
 module Kss
-  module ApplicationHelper
+  module HomeHelper
     # Generates a styleguide block. A little bit evil with @_out_buf, but
     # if you're using something like Rails, you can write a much cleaner helper
     # very easily.

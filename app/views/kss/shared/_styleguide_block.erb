@@ -19,4 +19,5 @@
       <%= example_html.gsub('$modifier_class', modifier.class_name).html_safe %>
     </div>
   <% end %>
+  <pre class="source"><%= example_html.gsub('$modifier_class', '').encode(example_html.encoding, :xml => :attr)[1...-1].html_safe %></pre>
 </div>
